@@ -128,7 +128,7 @@ function setUpClickBinding()
 							{
 								if(isSingleSiloCreated(selectingSeatArray))
 								{
-									$('.seats_alert > span').html("Single silo created");
+									$('.seats_alert > span').html("Refresh_please");
 									$('.seats_alert').removeClass('.alert-success').addClass('alert-danger');
 									$('.seats_alert').show();
 								}
