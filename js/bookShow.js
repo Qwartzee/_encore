@@ -19,8 +19,8 @@ var settings=
 	movies:
 	[
 		"Encore Welcome Production",
-		"Encore Welcome Production",
-		"Encore Welcome Production" 
+		"None",
+		"None" 
 	]
 };
 
