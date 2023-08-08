@@ -171,7 +171,7 @@ function isAdjacentSeat(selectedSeatArray)
 		if(selectingSeatArray[i]!=(parseInt(prev_value)+1))
 		{
 			
-			$('.seats_alert > span').html("Please select adjacent seats");
+			$('.seats_alert > span').html("Refresh_Please");
 			$('.seats_alert').removeClass('.alert-success').addClass('alert-danger');
 			$('.seats_alert').show();
 			return false;
